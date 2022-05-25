@@ -1,0 +1,89 @@
+#banner{
+    background-color: blue;
+    width: 50%;
+    height: 300px;
+}
+
+#banner .content{
+    background-color: aqua;
+}
+
+nav{
+
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* nav li{
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+} */
+
+.Li1{
+    background-color: aqua;
+    display: inline-block;
+    font-size: 9px;
+    padding: 10px;
+    margin: 25px;
+    color: red;
+}
+/* Aquí aprendo a darle color al fondo, le indico que se alinie al avegador, tamaño de letra, su espacio de campo y su margen */
+.Li2{
+    background-color: rgb(41, 94, 94);
+    display: inline-block;
+    font size: 15px;
+    padding: 20px;
+    margin: 50px;
+}
+/* Aquí aprendo a darle color de fondo negro, que se alinea al navegador,que el tamaño de fuente sea de 25px, el tamaño de su caja sea de 5px, margen de 5 px y su letra color blanco*/
+.Li3{
+    background-color: rgb(11, 12, 43);
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+/* Aquí aprendo a mandar el texto al lado que yo ocupe*/
+.h1{
+    text-align: center;
+}
+
+a{
+    float: right;
+    text-decoration: solid;
+}
+/* Aquí aprendo a darle color al fondo, darle espacio al área, darle un borde y espacios a cada lado fuera de borde*/
+#home{
+    background-color: tomato;
+    padding: 50px 100px;
+    border: 5px solid black;
+    margin: 10px 50px 100px 200px;
+}
+/* Aquíe aprendo a que el color de fondo es chocolate, el margen dentro izquierdo es de 100px, el margen dentro arriba es de 50px, el margen dentro abajo es de 50px, el magen dentro derecho es de 100px, crear borde con puntos y color, margen fueraarriba, margen fuera izquierda, margen fuera y margen fuera dercho. */
+#dog{
+    background-color: chocolate;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    border: 10px dotted rgb(17, 14, 11);
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+/* Aquí aprendí a poner de fondo una imgaen. */
+#cat{
+    background-image: url("img/photo_2021-10-14_14-43-41.jpg");
+    font-size: 30px;
+}
+
+#horse{
+    background: black;
+    color: yellow;
+    border: 1px soli;
+    display: inline-block;
+}

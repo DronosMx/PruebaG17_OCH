@@ -1,0 +1,38 @@
+
+/* selector de etiqueta */
+
+body {
+    background-color: rgb(10, 106, 151);
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    /*heghith: 300px*/
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: seagreen;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* selector de tipo clase CLASS */
+.rojo {
+    color: red;
+}
+
+/* selector de tipo ID */
+#especial {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}

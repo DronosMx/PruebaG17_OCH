@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(195, 195, 195);
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    overflow: hidden;
+    background-color: black;
+}
+
+.barra-nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.BoobaFet{
+    background-color: rgb(193, 200, 207);
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.r2d2{
+    float: right;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+}
+
+article{
+    padding: 20px;
+    width: 30%;
+    float: right;
+    background: #ccc;
+}
+
+.stoorm{
+    width: 100%;
+    border-radius: 10%;
+}
+
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+
+}
